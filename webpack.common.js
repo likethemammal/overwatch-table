@@ -4,11 +4,13 @@ const pixrem = require('pixrem')
 const path = require('path')
 
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+// const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const plugins = [
     new CopyWebpackPlugin([
-        { from: 'components/Table.less' }
+        { from: 'components/Table.exports.less' }
     ])
+    // new ExtractTextPlugin('Table.css')
 ]
 
 const css_loader = {
@@ -33,6 +35,13 @@ const postcss_loader = {
         }
     }
 }
+
+const lessLoaders = [
+    'style-loader',
+    css_loader,
+    postcss_loader,
+    'less-loader',
+]
 
 const config = {
 
@@ -62,21 +71,8 @@ const config = {
                 ],
             },
             {
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    css_loader,
-                    postcss_loader,
-                ],
-            },
-            {
                 test: /\.less/,
-                use: [
-                    'style-loader',
-                    css_loader,
-                    postcss_loader,
-                    'less-loader',
-                ],
+                use: lessLoaders,
             },
             {
                 test: /\.json$/,
