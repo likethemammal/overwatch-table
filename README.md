@@ -1,15 +1,15 @@
-[![Build Status](https://travis-ci.org/likethemammal/overwatch-settings-select.svg?branch=master)](https://travis-ci.org/likethemammal/overwatch-settings-select)
-[![Coverage Status](https://coveralls.io/repos/github/likethemammal/overwatch-settings-select/badge.svg?branch=master)](https://coveralls.io/github/likethemammal/overwatch-settings-select?branch=master)
+[![Build Status](https://travis-ci.org/likethemammal/overwatch-table.svg?branch=master)](https://travis-ci.org/likethemammal/overwatch-table)
+[![Coverage Status](https://coveralls.io/repos/github/likethemammal/overwatch-table/badge.svg?branch=master)](https://coveralls.io/github/likethemammal/overwatch-table?branch=master)
 
-overwatch-settings-select
+overwatch-table
 =========
 
-A React component modeling the Overwatch Settings select element
+A React component modeling the Overwatch custom game table element
 
 
 ## Installation
 
-Note: Supports **React 16.2+** for now
+Note: Requires **React 16.2+** for now
 
   `npm install`
 
@@ -20,10 +20,6 @@ Note: Supports **React 16.2+** for now
 ## Tests
 
   `npm test`
-
-## Publishing
-
-  `npm run build` and then publish
 
 ## Contributing
 
@@ -38,13 +34,6 @@ http://www.myfonts.com/fonts/urw/futura-no-2/futura-no2-d-demi-bold/
 
 | name        | type           | default  | desc 
 --- | --- | --- | --- |
-| defaultColor | string | #323c50 |  |
-| activeColor | string | #ffffff |  |
-| textColor | string | #00c3ff |  |
-| onChange | function | null |  |
-| label | string | null |  |
-| options | array | null | array of objects, with required keys `id`, `label`, `icon`, `Component` |
-| *option*.**id** | string | null |  |
-| *option*.**label** | string | null |  |
-| *option*.**icon** | string | null |  |
-| *option*.**Component** | Component | null |  |
+| headerLabels | object | null | object of keys matching eaach of the rows' data keys |
+| headerOrder | array | null | array of strings, each a key from rows' data keys desired order |
+| row | array | null | array of objects, with keys matching headerLabels |
