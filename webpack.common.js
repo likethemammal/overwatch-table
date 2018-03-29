@@ -3,8 +3,12 @@ const pixrem = require('pixrem')
 
 const path = require('path')
 
-const plugins = [
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
+const plugins = [
+    new CopyWebpackPlugin([
+        { from: 'components/Table.less' }
+    ])
 ]
 
 const css_loader = {
