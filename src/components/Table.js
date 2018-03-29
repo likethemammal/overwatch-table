@@ -1,0 +1,150 @@
+
+import React, { Component, } from 'react';
+import Table, {
+    TableBody,
+    TableHead,
+    TableRow,
+    TableCell,
+} from 'material-ui/Table'
+
+import _ from 'underscore'
+import css from './Table.less'
+import SortArrow from './SortArrow'
+
+import {
+    tableStyles,
+    headingStyles,
+    cellStyles,
+    rowStyles,
+    spacerStyles,
+    columnHeadCellStylesFirstChild,
+    columnHeadCellStyles,
+} from './Table.css.js'
+
+import {
+    sortRows,
+    getNewSortState,
+} from '../units/table'
+
+
+export default class OverwatchTable extends Component {
+
+    state = {
+        sortKey: '',
+        sortAscending: true,
+    }
+
+    static defaultProps = {
+        rows: [],
+        headerLabels: {},
+        headerOrder: [],
+    }
+
+    onSetSort = (key, ev) => {
+
+        const {
+            sortKey,
+            sortAscending,
+        } = this.state
+
+        this.setState(
+            getNewSortState(key, sortKey, sortAscending)
+        )
+    }
+
+    render() {
+
+        const {
+            rows,
+            headerLabels,
+            headerOrder
+        } = this.props
+
+        const {
+            sortKey,
+            sortAscending
+        } = this.state
+
+        const sortedRows = sortRows(rows, sortKey, sortAscending)
+
+        return <Table
+            style={tableStyles}
+        >
+            <TableHead>
+                <TableRow
+                    style={headingStyles}
+                >
+                    {_.map(headerOrder, (key, i) => {
+
+                        const isFirst = i === 0
+                        const isArrowVisible = sortKey === key
+
+                        return <TableCell
+                            key={key}
+                            className={css.column_head}
+                            onClick={this.onSetSort.bind(null, key)}
+                            style={
+                                isFirst ?
+                                columnHeadCellStylesFirstChild :
+                                columnHeadCellStyles
+                            }
+                        >
+                            <div className={css.label}>
+                                {headerLabels[key]}
+                            </div>
+                            <SortArrow
+                                sortAscending={sortAscending}
+                                visible={isArrowVisible}
+                            />
+                        </TableCell>
+                    })}
+                </TableRow>
+            </TableHead>
+
+            <TableBody
+                style={tableStyles}
+            >
+                <TableRow style={spacerStyles}/>
+
+                {sortedRows.map((data, i) => {
+
+                    if (!data) {
+                        return [
+                            <TableRow
+                                key={i}
+                                style={rowStyles}
+                                className={css.row}
+                            />,
+                            <TableRow key={`${i}-spacer`} style={spacerStyles}/>
+                        ]
+                    }
+
+                    return [
+                        <TableRow
+                            key={i}
+                            style={
+                                {
+                                    ...rowStyles,
+                                    ...data.style,
+                                }
+                            }
+                            className={data.className || css.row}
+                            onClick={data.onClick}
+                        >
+                            {_.map(headerOrder, (key, j) => {
+                                return <TableCell
+                                    key={key}
+                                    style={cellStyles}
+                                >
+                                    {data[key]}
+                                </TableCell>
+                            })}
+                        </TableRow>,
+                        <TableRow key={`${i}-spacer`} style={spacerStyles}/>
+                    ]
+                })}
+
+            </TableBody>
+        </Table>
+    }
+}
