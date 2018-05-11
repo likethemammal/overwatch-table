@@ -5,7 +5,7 @@ import general from '@likethemammal/general-components'
 
 const shared = general.__tests__._shared.tests
 
-import Table from '../../../lib'
+import Table from '../../../src'
 
 const rows = [
     {
