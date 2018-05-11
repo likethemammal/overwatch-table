@@ -69,84 +69,86 @@ export default class OverwatchTable extends Component {
 
         const sortedRows = _sortedRows(this.props, this.state)
 
-        return <Table
-            style={tableStyles}
-        >
-            <TableHead>
-                <TableRow
-                    style={headingStyles}
-                >
-                    {_.map(columnOrder, (key, i) => {
-
-                        const isFirst = i === 0
-                        const isArrowVisible = sortKey === key
-
-                        return <TableCell
-                            key={key}
-                            className={css.column_head}
-                            onClick={this.onSetSort.bind(null, key)}
-                            style={
-                                isFirst ?
-                                columnHeadCellStylesFirstChild :
-                                columnHeadCellStyles
-                            }
-                        >
-                            <div className={css.label}>
-                                {columnLabels[key]}
-                            </div>
-                            <SortArrow
-                                sortAscending={sortAscending}
-                                visible={isArrowVisible}
-                            />
-                        </TableCell>
-                    })}
-                </TableRow>
-            </TableHead>
-
-            <TableBody
+        return <div>
+            <Table
                 style={tableStyles}
             >
-                <TableRow style={spacerStyles}/>
+                <TableHead>
+                    <TableRow
+                        style={headingStyles}
+                    >
+                        {_.map(columnOrder, (key, i) => {
 
-                {sortedRows.map((data, i) => {
+                            const isFirst = i === 0
+                            const isArrowVisible = sortKey === key
 
-                    if (!data) {
+                            return <TableCell
+                                key={key}
+                                className={css.column_head}
+                                onClick={this.onSetSort.bind(null, key)}
+                                style={
+                                    isFirst ?
+                                    columnHeadCellStylesFirstChild :
+                                    columnHeadCellStyles
+                                }
+                            >
+                                <div className={css.label}>
+                                    {columnLabels[key]}
+                                </div>
+                                <SortArrow
+                                    sortAscending={sortAscending}
+                                    visible={isArrowVisible}
+                                />
+                            </TableCell>
+                        })}
+                    </TableRow>
+                </TableHead>
+
+                <TableBody
+                    style={tableStyles}
+                >
+                    <TableRow style={spacerStyles}/>
+
+                    {sortedRows.map((data, i) => {
+
+                        if (!data) {
+                            return [
+                                <TableRow
+                                    key={i}
+                                    style={rowStyles}
+                                    className={css.row}
+                                />,
+                                <TableRow key={`${i}-spacer`} style={spacerStyles}/>
+                            ]
+                        }
+
                         return [
                             <TableRow
                                 key={i}
-                                style={rowStyles}
-                                className={css.row}
-                            />,
+                                style={
+                                    {
+                                        ...rowStyles,
+                                        ...data.style,
+                                    }
+                                }
+                                className={data.className || css.row}
+                                onClick={data.onClick}
+                            >
+                                {_.map(columnOrder, (key, j) => {
+                                    return <TableCell
+                                        key={key}
+                                        style={cellStyles}
+                                    >
+                                        {data[key]}
+                                    </TableCell>
+                                })}
+                            </TableRow>,
                             <TableRow key={`${i}-spacer`} style={spacerStyles}/>
                         ]
-                    }
+                    })}
 
-                    return [
-                        <TableRow
-                            key={i}
-                            style={
-                                {
-                                    ...rowStyles,
-                                    ...data.style,
-                                }
-                            }
-                            className={data.className || css.row}
-                            onClick={data.onClick}
-                        >
-                            {_.map(columnOrder, (key, j) => {
-                                return <TableCell
-                                    key={key}
-                                    style={cellStyles}
-                                >
-                                    {data[key]}
-                                </TableCell>
-                            })}
-                        </TableRow>,
-                        <TableRow key={`${i}-spacer`} style={spacerStyles}/>
-                    ]
-                })}
-
-            </TableBody>
-        </Table>
+                </TableBody>
+            </Table>
+        </div>
     }
 }

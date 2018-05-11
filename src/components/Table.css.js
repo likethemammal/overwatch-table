@@ -1,6 +1,3 @@
-export const rowHeight = 36
-
-
 export const tableStyles = {
     background: 'transparent'
 }
@@ -8,21 +5,22 @@ export const tableStyles = {
 export const cellStyles = {
     padding: '0 10px 0 10px',
     borderWidth: 0,
-    fontSize: '16px',
+    fontSize: '18px',
     fontFamily: 'Arial, san-serif',
     textTransform: 'uppercase',
     color: 'white',
 }
 
 export const headingStyles = {
-    height: rowHeight,
+    height: '32px',
 }
 
 export const columnHeadCellStylesFirstChild = {
     ...cellStyles,
-    fontSize: '20px',
+    fontSize: '22px',
+    paddingLeft: '15px',
     fontFamily: 'Futura No 2 D Semi Bold',
-    background: 'rgba(28, 116, 188, 0.6)',
+    background: 'rgba(30, 145, 223, 0.7)',
     cursor: 'pointer',
 }
 
@@ -33,12 +31,12 @@ export const columnHeadCellStyles = {
 
 export const rowStyles = {
     //todo: include rowHeight
-    height: rowHeight,
-    background: 'rgba(255,255,255,0.07)',
+    height: '40px',
+    background: 'rgba(255,255,255,0.2)',
     borderWidth: 0,
     letterSpacing: 0.6
 }
 
 export const spacerStyles = {
-    height: '3px'
+    height: '4px'
 }
