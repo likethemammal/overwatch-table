@@ -5,13 +5,13 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <OverwatchTable
-    headerLabels={
+    columnLabels={
       Object {
         "label_1": "Label 1",
         "label_2": "Label 2",
       }
     }
-    headerOrder={
+    columnOrder={
       Array [
         "label_1",
         "label_2",

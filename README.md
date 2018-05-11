@@ -35,10 +35,9 @@ Check out [example/index.js](example/index.js) for working example.
 
 | name        | required | type           | default  | desc 
 --- |--- | --- | --- | --- |
-| headerLabels | **`X`** | object | null | object of keys matching eaach of the rows' data keys |
-| headerOrder | **`X`** | array | null | array of strings, each a key from rows' data keys desired order |
-| row | array | **`X`** | null | array of objects, with keys matching headerLabels |
-
+| columnLabels | **`X`** | object | null | Object of keys matching the keys of each item in `rows`, where the key's value is the label for that column in the Table. |
+| columnOrder | **`X`** | array | null | Array of strings, matching the keys of each item in `rows`, in the desired order for the columns. |
+| rows | **`X`** | array | null | Array of objects, with keys matching columnLabels and values that will be displayed in the Table cells. |
 
 ## Development
 

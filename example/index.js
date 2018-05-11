@@ -15,12 +15,12 @@ const rows = [
 ]
 
 
-const headerLabels = {
+const columnLabels = {
     label_1: 'Label 1',
     label_2: 'Label 2',
 }
 
-const headerOrder = [
+const columnOrder = [
     'label_1',
     'label_2',
 ]
@@ -28,8 +28,8 @@ const headerOrder = [
 
 const props = {
     rows,
-    headerLabels,
-    headerOrder,
+    columnLabels,
+    columnOrder,
 }
 
 

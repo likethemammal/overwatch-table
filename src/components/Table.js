@@ -39,8 +39,8 @@ export default class OverwatchTable extends Component {
 
     static defaultProps = {
         rows: [],
-        headerLabels: {},
-        headerOrder: [],
+        columnLabels: {},
+        columnOrder: [],
     }
 
     onSetSort = (key, ev) => {
@@ -58,8 +58,8 @@ export default class OverwatchTable extends Component {
     render() {
 
         const {
-            headerLabels,
-            headerOrder
+            columnLabels,
+            columnOrder
         } = this.props
 
         const {
@@ -76,7 +76,7 @@ export default class OverwatchTable extends Component {
                 <TableRow
                     style={headingStyles}
                 >
-                    {_.map(headerOrder, (key, i) => {
+                    {_.map(columnOrder, (key, i) => {
 
                         const isFirst = i === 0
                         const isArrowVisible = sortKey === key
@@ -92,7 +92,7 @@ export default class OverwatchTable extends Component {
                             }
                         >
                             <div className={css.label}>
-                                {headerLabels[key]}
+                                {columnLabels[key]}
                             </div>
                             <SortArrow
                                 sortAscending={sortAscending}
@@ -133,7 +133,7 @@ export default class OverwatchTable extends Component {
                             className={data.className || css.row}
                             onClick={data.onClick}
                         >
-                            {_.map(headerOrder, (key, j) => {
+                            {_.map(columnOrder, (key, j) => {
                                 return <TableCell
                                     key={key}
                                     style={cellStyles}
