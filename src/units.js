@@ -1,7 +1,7 @@
 import _ from 'underscore'
 
 
-export const sortRows = function(rows, sortKey, sortAscending) {
+export const sortedRows = function(rows, sortKey, sortAscending) {
 
     if (!rows) {
         throw 'No rows defined'

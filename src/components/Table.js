@@ -22,9 +22,12 @@ import {
 } from './Table.css.js'
 
 import {
-    sortRows,
     getNewSortState,
-} from '../units/table'
+} from '../units'
+
+import {
+    sortedRows as _sortedRows,
+} from '../selectors'
 
 
 export default class OverwatchTable extends Component {
@@ -55,7 +58,6 @@ export default class OverwatchTable extends Component {
     render() {
 
         const {
-            rows,
             headerLabels,
             headerOrder
         } = this.props
@@ -65,7 +67,7 @@ export default class OverwatchTable extends Component {
             sortAscending
         } = this.state
 
-        const sortedRows = sortRows(rows, sortKey, sortAscending)
+        const sortedRows = _sortedRows(this.props, this.state)
 
         return <Table
             style={tableStyles}

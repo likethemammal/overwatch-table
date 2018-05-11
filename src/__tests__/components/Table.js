@@ -40,8 +40,8 @@ const props = {
 
 
 
-describe('SettingsSelect', () => {
-    // Render a checkbox with label in the document
+describe('Table', () => {
+
     const component = shallow(
         <Table
             {...props}
