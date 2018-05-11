@@ -21,7 +21,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <t
-        className="SVG-container"
+        className=""
         raw="test-file-stub"
       />,
       "className": undefined,
@@ -32,7 +32,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "className": "SVG-container",
+        "className": "",
         "raw": "test-file-stub",
       },
       "ref": null,
@@ -48,7 +48,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <t
-          className="SVG-container"
+          className=""
           raw="test-file-stub"
         />,
         "className": undefined,
@@ -59,7 +59,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "className": "SVG-container",
+          "className": "",
           "raw": "test-file-stub",
         },
         "ref": null,
