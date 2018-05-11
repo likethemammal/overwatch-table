@@ -3,11 +3,7 @@ const pixrem = require('pixrem')
 
 const path = require('path')
 
-// const CopyWebpackPlugin = require('copy-webpack-plugin')
-// const ExtractTextPlugin = require('extract-text-webpack-plugin')
-
 const plugins = [
-    // new ExtractTextPlugin('Table.css')
 ]
 
 const css_loader = {

@@ -1,7 +1,7 @@
 {
   "name": "overwatch-table",
   "version": "0.1.6",
-  "description": "A React component modeling the Overwatch custom game table element",
+  "description": "A React component modeling the Overwatch Custom Game table element",
   "author": "Chris Dolphin",
   "license": "Apache-2.0",
   "repository": {
@@ -28,13 +28,14 @@
     "README.md"
   ],
   "dependencies": {
-    "@likethemammal/general-components": "^0.1.13",
-    "@likethemammal/overwatch-general": "^0.1.11",
+    "@likethemammal/general-components": "^0.1.15",
+    "@likethemammal/overwatch-general": "^0.1.18",
     "material-ui": "^1.0.0-beta.23",
     "svg-icon": "^0.8.2",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.0.0-beta.46",
     "autoprefixer": "^7.1.6",
     "babel-core": "^6.24.1",
     "babel-jest": "^21.2.0",
@@ -48,7 +49,6 @@
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.2.2",
-    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.11.1",
     "jest": "^21.2.1",
     "less": "^2.7.2",
