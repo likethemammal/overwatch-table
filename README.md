@@ -1,12 +1,12 @@
 overwatch-table
 =========
 
-[![Build Status](https://travis-ci.org/likethemammal/overwatch-table.svg?branch=master)](https://travis-ci.org/likethemammal/overwatch-settings-select)
-[![Coverage Status](https://coveralls.io/repos/github/likethemammal/overwatch-table/badge.svg?branch=master)](https://coveralls.io/github/likethemammal/overwatch-settings-select?branch=master)
+[![Build Status](https://travis-ci.org/likethemammal/overwatch-table.svg?branch=master)](https://travis-ci.org/likethemammal/overwatch-table)
+[![Coverage Status](https://coveralls.io/repos/github/likethemammal/overwatch-table/badge.svg?branch=master)](https://coveralls.io/github/likethemammal/overwatch-table?branch=master)
 
-[![npm Version](https://img.shields.io/npm/v/overwatch-table.svg)](https://www.npmjs.com/package/overwatch-settings-select)
-[![npm Downloads](https://img.shields.io/npm/dm/overwatch-table.svg)](https://www.npmjs.com/package/overwatch-settings-select)
-[![license](https://img.shields.io/github/license/likethemammal/overwatch-table.svg)](https://github.com/likethemammal/overwatch-settings-select/blob/master/LICENSE)
+[![npm Version](https://img.shields.io/npm/v/overwatch-table.svg)](https://www.npmjs.com/package/overwatch-table)
+[![npm Downloads](https://img.shields.io/npm/dm/overwatch-table.svg)](https://www.npmjs.com/package/overwatch-table)
+[![license](https://img.shields.io/github/license/likethemammal/overwatch-table.svg)](https://github.com/likethemammal/overwatch-table/blob/master/LICENSE)
 
 A React component modeling the Overwatch Custom Game table element
 
@@ -33,11 +33,11 @@ Check out [example/index.js](example/index.js) for working example.
 
 ### Props
 
-| name        | type           | default  | desc 
---- | --- | --- | --- |
-| headerLabels | object | null | object of keys matching eaach of the rows' data keys |
-| headerOrder | array | null | array of strings, each a key from rows' data keys desired order |
-| row | array | null | array of objects, with keys matching headerLabels |
+| name        | required | type           | default  | desc 
+--- |--- | --- | --- | --- |
+| headerLabels | **`X`** | object | null | object of keys matching eaach of the rows' data keys |
+| headerOrder | **`X`** | array | null | array of strings, each a key from rows' data keys desired order |
+| row | array | **`X`** | null | array of objects, with keys matching headerLabels |
 
 
 ## Development
@@ -59,4 +59,4 @@ Open [http://localhost:8080/](http://localhost:8080/) to view example
 
 Made with 🍊 by [Chris Dolphin](https://github.com/likethemammal)
 
-[![license](https://img.shields.io/github/license/likethemammal/overwatch-settings-select.svg?style=flat-square)](https://github.com/likethemammal/overwatch-settings-select/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/likethemammal/overwatch-table.svg?style=flat-square)](https://github.com/likethemammal/overwatch-table/blob/master/LICENSE)
