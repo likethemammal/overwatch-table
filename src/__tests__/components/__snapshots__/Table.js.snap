@@ -27,6 +27,7 @@ ShallowWrapper {
           "label_1": "Next value",
           "label_2": "Some other value",
         },
+        Object {},
       ]
     }
   />,
@@ -224,6 +225,50 @@ ShallowWrapper {
               }
             }
           />
+          <WithStyles(TableRow)
+            className={undefined}
+            onClick={undefined}
+            style={
+              Object {
+                "background": "rgba(255,255,255,0.2)",
+                "borderWidth": 0,
+                "height": "40px",
+                "letterSpacing": 0.6,
+              }
+            }
+          >
+            <WithStyles(TableCell)
+              style={
+                Object {
+                  "borderWidth": 0,
+                  "color": "white",
+                  "fontFamily": "Arial, san-serif",
+                  "fontSize": "18px",
+                  "padding": "0 10px 0 10px",
+                  "textTransform": "uppercase",
+                }
+              }
+            />
+            <WithStyles(TableCell)
+              style={
+                Object {
+                  "borderWidth": 0,
+                  "color": "white",
+                  "fontFamily": "Arial, san-serif",
+                  "fontSize": "18px",
+                  "padding": "0 10px 0 10px",
+                  "textTransform": "uppercase",
+                }
+              }
+            />
+          </WithStyles(TableRow)>
+          <WithStyles(TableRow)
+            style={
+              Object {
+                "height": "4px",
+              }
+            }
+          />
         </WithStyles(TableBody)>
       </WithStyles(Table)>,
     },
@@ -401,6 +446,50 @@ ShallowWrapper {
               >
                 Some other value
               </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+            <WithStyles(TableRow)
+              style={
+                Object {
+                  "height": "4px",
+                }
+              }
+            />
+            <WithStyles(TableRow)
+              className={undefined}
+              onClick={undefined}
+              style={
+                Object {
+                  "background": "rgba(255,255,255,0.2)",
+                  "borderWidth": 0,
+                  "height": "40px",
+                  "letterSpacing": 0.6,
+                }
+              }
+            >
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              />
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              />
             </WithStyles(TableRow)>
             <WithStyles(TableRow)
               style={
@@ -793,6 +882,52 @@ ShallowWrapper {
                     }
                   />,
                 ],
+                Array [
+                  <WithStyles(TableRow)
+                    className={undefined}
+                    onClick={undefined}
+                    style={
+                      Object {
+                        "background": "rgba(255,255,255,0.2)",
+                        "borderWidth": 0,
+                        "height": "40px",
+                        "letterSpacing": 0.6,
+                      }
+                    }
+                  >
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    />
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    />
+                  </WithStyles(TableRow)>,
+                  <WithStyles(TableRow)
+                    style={
+                      Object {
+                        "height": "4px",
+                      }
+                    }
+                  />,
+                ],
               ],
             ],
             "style": Object {
@@ -1014,6 +1149,102 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(TableCell)
+                    style={
+                      Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      }
+                    }
+                  />,
+                  <WithStyles(TableCell)
+                    style={
+                      Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      }
+                    }
+                  />,
+                ],
+                "className": undefined,
+                "onClick": undefined,
+                "style": Object {
+                  "background": "rgba(255,255,255,0.2)",
+                  "borderWidth": 0,
+                  "height": "40px",
+                  "letterSpacing": 0.6,
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "label_1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": undefined,
+                    "style": Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "label_2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": undefined,
+                    "style": Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2-spacer",
+              "nodeType": "class",
+              "props": Object {
+                "style": Object {
+                  "height": "4px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
           ],
           "type": [Function],
         },
@@ -1210,6 +1441,50 @@ ShallowWrapper {
                 }
               }
             />
+            <WithStyles(TableRow)
+              className={undefined}
+              onClick={undefined}
+              style={
+                Object {
+                  "background": "rgba(255,255,255,0.2)",
+                  "borderWidth": 0,
+                  "height": "40px",
+                  "letterSpacing": 0.6,
+                }
+              }
+            >
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              />
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              />
+            </WithStyles(TableRow)>
+            <WithStyles(TableRow)
+              style={
+                Object {
+                  "height": "4px",
+                }
+              }
+            />
           </WithStyles(TableBody)>
         </WithStyles(Table)>,
       },
@@ -1387,6 +1662,50 @@ ShallowWrapper {
                 >
                   Some other value
                 </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": "4px",
+                  }
+                }
+              />
+              <WithStyles(TableRow)
+                className={undefined}
+                onClick={undefined}
+                style={
+                  Object {
+                    "background": "rgba(255,255,255,0.2)",
+                    "borderWidth": 0,
+                    "height": "40px",
+                    "letterSpacing": 0.6,
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  style={
+                    Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                />
+                <WithStyles(TableCell)
+                  style={
+                    Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                />
               </WithStyles(TableRow)>
               <WithStyles(TableRow)
                 style={
@@ -1779,6 +2098,52 @@ ShallowWrapper {
                       }
                     />,
                   ],
+                  Array [
+                    <WithStyles(TableRow)
+                      className={undefined}
+                      onClick={undefined}
+                      style={
+                        Object {
+                          "background": "rgba(255,255,255,0.2)",
+                          "borderWidth": 0,
+                          "height": "40px",
+                          "letterSpacing": 0.6,
+                        }
+                      }
+                    >
+                      <WithStyles(TableCell)
+                        style={
+                          Object {
+                            "borderWidth": 0,
+                            "color": "white",
+                            "fontFamily": "Arial, san-serif",
+                            "fontSize": "18px",
+                            "padding": "0 10px 0 10px",
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      />
+                      <WithStyles(TableCell)
+                        style={
+                          Object {
+                            "borderWidth": 0,
+                            "color": "white",
+                            "fontFamily": "Arial, san-serif",
+                            "fontSize": "18px",
+                            "padding": "0 10px 0 10px",
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      />
+                    </WithStyles(TableRow)>,
+                    <WithStyles(TableRow)
+                      style={
+                        Object {
+                          "height": "4px",
+                        }
+                      }
+                    />,
+                  ],
                 ],
               ],
               "style": Object {
@@ -1990,6 +2355,102 @@ ShallowWrapper {
               Object {
                 "instance": null,
                 "key": "1-spacer",
+                "nodeType": "class",
+                "props": Object {
+                  "style": Object {
+                    "height": "4px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    />,
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    />,
+                  ],
+                  "className": undefined,
+                  "onClick": undefined,
+                  "style": Object {
+                    "background": "rgba(255,255,255,0.2)",
+                    "borderWidth": 0,
+                    "height": "40px",
+                    "letterSpacing": 0.6,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "label_1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                      "style": Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "label_2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": undefined,
+                      "style": Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2-spacer",
                 "nodeType": "class",
                 "props": Object {
                   "style": Object {

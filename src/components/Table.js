@@ -111,17 +111,6 @@ export default class OverwatchTable extends Component {
 
                     {sortedAndEmptyRows.map((data, i) => {
 
-                        if (!data) {
-                            return [
-                                <TableRow
-                                    key={i}
-                                    style={rowStyles}
-                                    className={css.row}
-                                />,
-                                <TableRow key={`${i}-spacer`} style={spacerStyles}/>
-                            ]
-                        }
-
                         return [
                             <TableRow
                                 key={i}

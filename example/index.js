@@ -12,6 +12,7 @@ const rows = [
         label_1: 'Next value',
         label_2: 'Some other value'
     },
+    {},
 ]
 
 
@@ -34,10 +35,8 @@ const props = {
 
 
 ReactDOM.render(
-    <div>
-        <OverwatchTable
-            {...props}
-        />
-    </div>,
+    <OverwatchTable
+        {...props}
+    />,
     document.getElementById('app')
 )
