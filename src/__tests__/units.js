@@ -135,5 +135,36 @@ describe('getNewSortState', () => {
             getNewSortState
         )
 
+
+        test('if key is not the same, object returned should have sortAscending set to true', () => {
+            expect(
+                getNewSortState('some_key', 'some_key')
+            ).toEqual({
+                sortAscending: true,
+            })
+
+            expect(
+                getNewSortState('some_other_key', 'some_other_key', true)
+            ).toEqual({
+                sortAscending: false,
+            })
+        })
+
+        test('if key is the same, object returned should have sortAscending to to be opposite', () => {
+            expect(
+                getNewSortState('some_key', 'some_old_key')
+            ).toEqual({
+                sortAscending: true,
+                sortKey: 'some_key'
+            })
+
+            expect(
+                getNewSortState('some_new_key', 'some_old_key', true)
+            ).toEqual({
+                sortAscending: true,
+                sortKey: 'some_new_key',
+            })
+        })
+
     })
 })

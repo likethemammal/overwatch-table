@@ -46,18 +46,12 @@ export const getNewSortState = function(newSortKey, sortKey, sortAscending) {
         throw 'No newSortKey defined'
     }
 
-    let state = {}
+    const isKeyTheSame = sortKey === newSortKey
 
-    if (sortKey === newSortKey) {
-        state = {
-            sortAscending: !sortAscending,
-        }
-    } else {
-        state = {
-            sortKey: newSortKey,
-            sortAscending: true,
-        }
+    return isKeyTheSame ? {
+        sortAscending: !sortAscending,
+    } : {
+        sortAscending: true,
+        sortKey: newSortKey,
     }
-
-    return state
 }
