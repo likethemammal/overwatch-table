@@ -1,23 +1,42 @@
 import _ from 'underscore'
 
-
-export const sortedRows = function(rows, sortKey, sortAscending) {
-
+export const emptyRows = rows => {
     if (!rows) {
         throw 'No rows defined'
     }
 
-    const emptyRows = _.filter(rows, (data) => _.isEmpty(data))
-    const fullRows = _.filter(rows, (data) => !_.isEmpty(data))
+    return _.filter(rows, (data) => _.isEmpty(data))
+}
+
+export const fullRows = rows => {
+    if (!rows) {
+        throw 'No rows defined'
+    }
+
+    return _.filter(rows, (data) => !_.isEmpty(data))
+}
+
+export const sortedRows = function(
+    fullRows,
+    sortKey,
+    sortAscending
+) {
 
     let sortedRows = sortKey ? _.sortBy(fullRows, (data) => {
         return data[sortKey]
-    }) : fullRows
+    }) : fullRows || []
 
     if (sortKey && !sortAscending) {
         sortedRows.reverse()
     }
 
+    return sortedRows
+}
+
+export const sortedAndEmptyRows = function(
+    emptyRows,
+    sortedRows,
+) {
     return sortedRows.concat(emptyRows)
 }
 

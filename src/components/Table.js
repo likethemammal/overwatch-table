@@ -26,7 +26,7 @@ import {
 } from '../units'
 
 import {
-    sortedRows as _sortedRows,
+    sortedAndEmptyRows as _sortedAndEmptyRows,
 } from '../selectors'
 
 
@@ -67,7 +67,7 @@ export default class OverwatchTable extends Component {
             sortAscending
         } = this.state
 
-        const sortedRows = _sortedRows(this.props, this.state)
+        const sortedAndEmptyRows = _sortedAndEmptyRows(this.props, this.state)
 
         return <div>
             <Table
@@ -109,7 +109,7 @@ export default class OverwatchTable extends Component {
                 >
                     <TableRow style={spacerStyles}/>
 
-                    {sortedRows.map((data, i) => {
+                    {sortedAndEmptyRows.map((data, i) => {
 
                         if (!data) {
                             return [

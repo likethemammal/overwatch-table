@@ -30,7 +30,6 @@ export const columnHeadCellStyles = {
 }
 
 export const rowStyles = {
-    //todo: include rowHeight
     height: '40px',
     background: 'rgba(255,255,255,0.2)',
     borderWidth: 0,

@@ -40,14 +40,20 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <WithStyles(Table)
+        style={
+          Object {
+            "background": "transparent",
+          }
+        }
+      >
         <WithStyles(TableHead)>
           <WithStyles(TableRow)
             style={
               Object {
-                "height": 36,
+                "height": "32px",
               }
             }
           >
@@ -56,13 +62,14 @@ ShallowWrapper {
               onClick={[Function]}
               style={
                 Object {
-                  "background": "rgba(28, 116, 188, 0.6)",
+                  "background": "rgba(30, 145, 223, 0.7)",
                   "borderWidth": 0,
                   "color": "white",
                   "cursor": "pointer",
                   "fontFamily": "Futura No 2 D Semi Bold",
-                  "fontSize": "20px",
+                  "fontSize": "22px",
                   "padding": "0 10px 0 10px",
+                  "paddingLeft": "15px",
                   "textTransform": "uppercase",
                 }
               }
@@ -82,14 +89,15 @@ ShallowWrapper {
               onClick={[Function]}
               style={
                 Object {
-                  "background": "rgba(28, 116, 188, 0.6)",
+                  "background": "rgba(30, 145, 223, 0.7)",
                   "borderLeft": "2px solid transparent",
                   "borderWidth": 0,
                   "color": "white",
                   "cursor": "pointer",
                   "fontFamily": "Futura No 2 D Semi Bold",
-                  "fontSize": "20px",
+                  "fontSize": "22px",
                   "padding": "0 10px 0 10px",
+                  "paddingLeft": "15px",
                   "textTransform": "uppercase",
                 }
               }
@@ -105,7 +113,7 @@ ShallowWrapper {
               />
             </WithStyles(TableCell)>
           </WithStyles(TableRow)>
-        </WithStyles(TableHead)>,
+        </WithStyles(TableHead)>
         <WithStyles(TableBody)
           style={
             Object {
@@ -116,7 +124,7 @@ ShallowWrapper {
           <WithStyles(TableRow)
             style={
               Object {
-                "height": "3px",
+                "height": "4px",
               }
             }
           />
@@ -125,9 +133,9 @@ ShallowWrapper {
             onClick={undefined}
             style={
               Object {
-                "background": "rgba(255,255,255,0.07)",
+                "background": "rgba(255,255,255,0.2)",
                 "borderWidth": 0,
-                "height": 36,
+                "height": "40px",
                 "letterSpacing": 0.6,
               }
             }
@@ -138,7 +146,7 @@ ShallowWrapper {
                   "borderWidth": 0,
                   "color": "white",
                   "fontFamily": "Arial, san-serif",
-                  "fontSize": "16px",
+                  "fontSize": "18px",
                   "padding": "0 10px 0 10px",
                   "textTransform": "uppercase",
                 }
@@ -152,7 +160,7 @@ ShallowWrapper {
                   "borderWidth": 0,
                   "color": "white",
                   "fontFamily": "Arial, san-serif",
-                  "fontSize": "16px",
+                  "fontSize": "18px",
                   "padding": "0 10px 0 10px",
                   "textTransform": "uppercase",
                 }
@@ -164,7 +172,7 @@ ShallowWrapper {
           <WithStyles(TableRow)
             style={
               Object {
-                "height": "3px",
+                "height": "4px",
               }
             }
           />
@@ -173,9 +181,9 @@ ShallowWrapper {
             onClick={undefined}
             style={
               Object {
-                "background": "rgba(255,255,255,0.07)",
+                "background": "rgba(255,255,255,0.2)",
                 "borderWidth": 0,
-                "height": 36,
+                "height": "40px",
                 "letterSpacing": 0.6,
               }
             }
@@ -186,7 +194,7 @@ ShallowWrapper {
                   "borderWidth": 0,
                   "color": "white",
                   "fontFamily": "Arial, san-serif",
-                  "fontSize": "16px",
+                  "fontSize": "18px",
                   "padding": "0 10px 0 10px",
                   "textTransform": "uppercase",
                 }
@@ -200,7 +208,7 @@ ShallowWrapper {
                   "borderWidth": 0,
                   "color": "white",
                   "fontFamily": "Arial, san-serif",
-                  "fontSize": "16px",
+                  "fontSize": "18px",
                   "padding": "0 10px 0 10px",
                   "textTransform": "uppercase",
                 }
@@ -212,617 +220,15 @@ ShallowWrapper {
           <WithStyles(TableRow)
             style={
               Object {
-                "height": "3px",
+                "height": "4px",
               }
             }
           />
-        </WithStyles(TableBody)>,
-      ],
-      "style": Object {
-        "background": "transparent",
-      },
+        </WithStyles(TableBody)>
+      </WithStyles(Table)>,
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <WithStyles(TableRow)
-            style={
-              Object {
-                "height": 36,
-              }
-            }
-          >
-            <WithStyles(TableCell)
-              className={undefined}
-              onClick={[Function]}
-              style={
-                Object {
-                  "background": "rgba(28, 116, 188, 0.6)",
-                  "borderWidth": 0,
-                  "color": "white",
-                  "cursor": "pointer",
-                  "fontFamily": "Futura No 2 D Semi Bold",
-                  "fontSize": "20px",
-                  "padding": "0 10px 0 10px",
-                  "textTransform": "uppercase",
-                }
-              }
-            >
-              <div
-                className={undefined}
-              >
-                Label 1
-              </div>
-              <SortArrow
-                sortAscending={true}
-                visible={false}
-              />
-            </WithStyles(TableCell)>
-            <WithStyles(TableCell)
-              className={undefined}
-              onClick={[Function]}
-              style={
-                Object {
-                  "background": "rgba(28, 116, 188, 0.6)",
-                  "borderLeft": "2px solid transparent",
-                  "borderWidth": 0,
-                  "color": "white",
-                  "cursor": "pointer",
-                  "fontFamily": "Futura No 2 D Semi Bold",
-                  "fontSize": "20px",
-                  "padding": "0 10px 0 10px",
-                  "textTransform": "uppercase",
-                }
-              }
-            >
-              <div
-                className={undefined}
-              >
-                Label 2
-              </div>
-              <SortArrow
-                sortAscending={true}
-                visible={false}
-              />
-            </WithStyles(TableCell)>
-          </WithStyles(TableRow)>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <WithStyles(TableCell)
-                className={undefined}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
-                    "borderWidth": 0,
-                    "color": "white",
-                    "cursor": "pointer",
-                    "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
-                    "padding": "0 10px 0 10px",
-                    "textTransform": "uppercase",
-                  }
-                }
-              >
-                <div
-                  className={undefined}
-                >
-                  Label 1
-                </div>
-                <SortArrow
-                  sortAscending={true}
-                  visible={false}
-                />
-              </WithStyles(TableCell)>,
-              <WithStyles(TableCell)
-                className={undefined}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
-                    "borderLeft": "2px solid transparent",
-                    "borderWidth": 0,
-                    "color": "white",
-                    "cursor": "pointer",
-                    "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
-                    "padding": "0 10px 0 10px",
-                    "textTransform": "uppercase",
-                  }
-                }
-              >
-                <div
-                  className={undefined}
-                >
-                  Label 2
-                </div>
-                <SortArrow
-                  sortAscending={true}
-                  visible={false}
-                />
-              </WithStyles(TableCell)>,
-            ],
-            "style": Object {
-              "height": 36,
-            },
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "label_1",
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
-                  <div
-                    className={undefined}
-                  >
-                    Label 1
-                  </div>,
-                  <SortArrow
-                    sortAscending={true}
-                    visible={false}
-                  />,
-                ],
-                "className": undefined,
-                "onClick": [Function],
-                "style": Object {
-                  "background": "rgba(28, 116, 188, 0.6)",
-                  "borderWidth": 0,
-                  "color": "white",
-                  "cursor": "pointer",
-                  "fontFamily": "Futura No 2 D Semi Bold",
-                  "fontSize": "20px",
-                  "padding": "0 10px 0 10px",
-                  "textTransform": "uppercase",
-                },
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Label 1",
-                    "className": undefined,
-                  },
-                  "ref": null,
-                  "rendered": "Label 1",
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "sortAscending": true,
-                    "visible": false,
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-              ],
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "label_2",
-              "nodeType": "class",
-              "props": Object {
-                "children": Array [
-                  <div
-                    className={undefined}
-                  >
-                    Label 2
-                  </div>,
-                  <SortArrow
-                    sortAscending={true}
-                    visible={false}
-                  />,
-                ],
-                "className": undefined,
-                "onClick": [Function],
-                "style": Object {
-                  "background": "rgba(28, 116, 188, 0.6)",
-                  "borderLeft": "2px solid transparent",
-                  "borderWidth": 0,
-                  "color": "white",
-                  "cursor": "pointer",
-                  "fontFamily": "Futura No 2 D Semi Bold",
-                  "fontSize": "20px",
-                  "padding": "0 10px 0 10px",
-                  "textTransform": "uppercase",
-                },
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Label 2",
-                    "className": undefined,
-                  },
-                  "ref": null,
-                  "rendered": "Label 2",
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "sortAscending": true,
-                    "visible": false,
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-              ],
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <WithStyles(TableRow)
-              style={
-                Object {
-                  "height": "3px",
-                }
-              }
-            />,
-            Array [
-              Array [
-                <WithStyles(TableRow)
-                  className={undefined}
-                  onClick={undefined}
-                  style={
-                    Object {
-                      "background": "rgba(255,255,255,0.07)",
-                      "borderWidth": 0,
-                      "height": 36,
-                      "letterSpacing": 0.6,
-                    }
-                  }
-                >
-                  <WithStyles(TableCell)
-                    style={
-                      Object {
-                        "borderWidth": 0,
-                        "color": "white",
-                        "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
-                        "padding": "0 10px 0 10px",
-                        "textTransform": "uppercase",
-                      }
-                    }
-                  >
-                    Some value
-                  </WithStyles(TableCell)>
-                  <WithStyles(TableCell)
-                    style={
-                      Object {
-                        "borderWidth": 0,
-                        "color": "white",
-                        "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
-                        "padding": "0 10px 0 10px",
-                        "textTransform": "uppercase",
-                      }
-                    }
-                  >
-                    Some other value
-                  </WithStyles(TableCell)>
-                </WithStyles(TableRow)>,
-                <WithStyles(TableRow)
-                  style={
-                    Object {
-                      "height": "3px",
-                    }
-                  }
-                />,
-              ],
-              Array [
-                <WithStyles(TableRow)
-                  className={undefined}
-                  onClick={undefined}
-                  style={
-                    Object {
-                      "background": "rgba(255,255,255,0.07)",
-                      "borderWidth": 0,
-                      "height": 36,
-                      "letterSpacing": 0.6,
-                    }
-                  }
-                >
-                  <WithStyles(TableCell)
-                    style={
-                      Object {
-                        "borderWidth": 0,
-                        "color": "white",
-                        "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
-                        "padding": "0 10px 0 10px",
-                        "textTransform": "uppercase",
-                      }
-                    }
-                  >
-                    Next value
-                  </WithStyles(TableCell)>
-                  <WithStyles(TableCell)
-                    style={
-                      Object {
-                        "borderWidth": 0,
-                        "color": "white",
-                        "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
-                        "padding": "0 10px 0 10px",
-                        "textTransform": "uppercase",
-                      }
-                    }
-                  >
-                    Some other value
-                  </WithStyles(TableCell)>
-                </WithStyles(TableRow)>,
-                <WithStyles(TableRow)
-                  style={
-                    Object {
-                      "height": "3px",
-                    }
-                  }
-                />,
-              ],
-            ],
-          ],
-          "style": Object {
-            "background": "transparent",
-          },
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "style": Object {
-                "height": "3px",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "0",
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <WithStyles(TableCell)
-                  style={
-                    Object {
-                      "borderWidth": 0,
-                      "color": "white",
-                      "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
-                      "padding": "0 10px 0 10px",
-                      "textTransform": "uppercase",
-                    }
-                  }
-                >
-                  Some value
-                </WithStyles(TableCell)>,
-                <WithStyles(TableCell)
-                  style={
-                    Object {
-                      "borderWidth": 0,
-                      "color": "white",
-                      "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
-                      "padding": "0 10px 0 10px",
-                      "textTransform": "uppercase",
-                    }
-                  }
-                >
-                  Some other value
-                </WithStyles(TableCell)>,
-              ],
-              "className": undefined,
-              "onClick": undefined,
-              "style": Object {
-                "background": "rgba(255,255,255,0.07)",
-                "borderWidth": 0,
-                "height": 36,
-                "letterSpacing": 0.6,
-              },
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "label_1",
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Some value",
-                  "style": Object {
-                    "borderWidth": 0,
-                    "color": "white",
-                    "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
-                    "padding": "0 10px 0 10px",
-                    "textTransform": "uppercase",
-                  },
-                },
-                "ref": null,
-                "rendered": "Some value",
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": "label_2",
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Some other value",
-                  "style": Object {
-                    "borderWidth": 0,
-                    "color": "white",
-                    "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
-                    "padding": "0 10px 0 10px",
-                    "textTransform": "uppercase",
-                  },
-                },
-                "ref": null,
-                "rendered": "Some other value",
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "0-spacer",
-            "nodeType": "class",
-            "props": Object {
-              "style": Object {
-                "height": "3px",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "1",
-            "nodeType": "class",
-            "props": Object {
-              "children": Array [
-                <WithStyles(TableCell)
-                  style={
-                    Object {
-                      "borderWidth": 0,
-                      "color": "white",
-                      "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
-                      "padding": "0 10px 0 10px",
-                      "textTransform": "uppercase",
-                    }
-                  }
-                >
-                  Next value
-                </WithStyles(TableCell)>,
-                <WithStyles(TableCell)
-                  style={
-                    Object {
-                      "borderWidth": 0,
-                      "color": "white",
-                      "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
-                      "padding": "0 10px 0 10px",
-                      "textTransform": "uppercase",
-                    }
-                  }
-                >
-                  Some other value
-                </WithStyles(TableCell)>,
-              ],
-              "className": undefined,
-              "onClick": undefined,
-              "style": Object {
-                "background": "rgba(255,255,255,0.07)",
-                "borderWidth": 0,
-                "height": 36,
-                "letterSpacing": 0.6,
-              },
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": "label_1",
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Next value",
-                  "style": Object {
-                    "borderWidth": 0,
-                    "color": "white",
-                    "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
-                    "padding": "0 10px 0 10px",
-                    "textTransform": "uppercase",
-                  },
-                },
-                "ref": null,
-                "rendered": "Next value",
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": "label_2",
-                "nodeType": "class",
-                "props": Object {
-                  "children": "Some other value",
-                  "style": Object {
-                    "borderWidth": 0,
-                    "color": "white",
-                    "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
-                    "padding": "0 10px 0 10px",
-                    "textTransform": "uppercase",
-                  },
-                },
-                "ref": null,
-                "rendered": "Some other value",
-                "type": [Function],
-              },
-            ],
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "1-spacer",
-            "nodeType": "class",
-            "props": Object {
-              "style": Object {
-                "height": "3px",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
@@ -832,7 +238,7 @@ ShallowWrapper {
             <WithStyles(TableRow)
               style={
                 Object {
-                  "height": 36,
+                  "height": "32px",
                 }
               }
             >
@@ -841,13 +247,14 @@ ShallowWrapper {
                 onClick={[Function]}
                 style={
                   Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
+                    "background": "rgba(30, 145, 223, 0.7)",
                     "borderWidth": 0,
                     "color": "white",
                     "cursor": "pointer",
                     "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
+                    "fontSize": "22px",
                     "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
                     "textTransform": "uppercase",
                   }
                 }
@@ -867,14 +274,15 @@ ShallowWrapper {
                 onClick={[Function]}
                 style={
                   Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
+                    "background": "rgba(30, 145, 223, 0.7)",
                     "borderLeft": "2px solid transparent",
                     "borderWidth": 0,
                     "color": "white",
                     "cursor": "pointer",
                     "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
+                    "fontSize": "22px",
                     "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
                     "textTransform": "uppercase",
                   }
                 }
@@ -901,7 +309,7 @@ ShallowWrapper {
             <WithStyles(TableRow)
               style={
                 Object {
-                  "height": "3px",
+                  "height": "4px",
                 }
               }
             />
@@ -910,9 +318,9 @@ ShallowWrapper {
               onClick={undefined}
               style={
                 Object {
-                  "background": "rgba(255,255,255,0.07)",
+                  "background": "rgba(255,255,255,0.2)",
                   "borderWidth": 0,
-                  "height": 36,
+                  "height": "40px",
                   "letterSpacing": 0.6,
                 }
               }
@@ -923,7 +331,7 @@ ShallowWrapper {
                     "borderWidth": 0,
                     "color": "white",
                     "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
+                    "fontSize": "18px",
                     "padding": "0 10px 0 10px",
                     "textTransform": "uppercase",
                   }
@@ -937,7 +345,7 @@ ShallowWrapper {
                     "borderWidth": 0,
                     "color": "white",
                     "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
+                    "fontSize": "18px",
                     "padding": "0 10px 0 10px",
                     "textTransform": "uppercase",
                   }
@@ -949,7 +357,7 @@ ShallowWrapper {
             <WithStyles(TableRow)
               style={
                 Object {
-                  "height": "3px",
+                  "height": "4px",
                 }
               }
             />
@@ -958,9 +366,9 @@ ShallowWrapper {
               onClick={undefined}
               style={
                 Object {
-                  "background": "rgba(255,255,255,0.07)",
+                  "background": "rgba(255,255,255,0.2)",
                   "borderWidth": 0,
-                  "height": 36,
+                  "height": "40px",
                   "letterSpacing": 0.6,
                 }
               }
@@ -971,7 +379,7 @@ ShallowWrapper {
                     "borderWidth": 0,
                     "color": "white",
                     "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
+                    "fontSize": "18px",
                     "padding": "0 10px 0 10px",
                     "textTransform": "uppercase",
                   }
@@ -985,7 +393,7 @@ ShallowWrapper {
                     "borderWidth": 0,
                     "color": "white",
                     "fontFamily": "Arial, san-serif",
-                    "fontSize": "16px",
+                    "fontSize": "18px",
                     "padding": "0 10px 0 10px",
                     "textTransform": "uppercase",
                   }
@@ -997,7 +405,7 @@ ShallowWrapper {
             <WithStyles(TableRow)
               style={
                 Object {
-                  "height": "3px",
+                  "height": "4px",
                 }
               }
             />
@@ -1017,7 +425,7 @@ ShallowWrapper {
             "children": <WithStyles(TableRow)
               style={
                 Object {
-                  "height": 36,
+                  "height": "32px",
                 }
               }
             >
@@ -1026,13 +434,14 @@ ShallowWrapper {
                 onClick={[Function]}
                 style={
                   Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
+                    "background": "rgba(30, 145, 223, 0.7)",
                     "borderWidth": 0,
                     "color": "white",
                     "cursor": "pointer",
                     "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
+                    "fontSize": "22px",
                     "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
                     "textTransform": "uppercase",
                   }
                 }
@@ -1052,14 +461,15 @@ ShallowWrapper {
                 onClick={[Function]}
                 style={
                   Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
+                    "background": "rgba(30, 145, 223, 0.7)",
                     "borderLeft": "2px solid transparent",
                     "borderWidth": 0,
                     "color": "white",
                     "cursor": "pointer",
                     "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
+                    "fontSize": "22px",
                     "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
                     "textTransform": "uppercase",
                   }
                 }
@@ -1088,13 +498,14 @@ ShallowWrapper {
                   onClick={[Function]}
                   style={
                     Object {
-                      "background": "rgba(28, 116, 188, 0.6)",
+                      "background": "rgba(30, 145, 223, 0.7)",
                       "borderWidth": 0,
                       "color": "white",
                       "cursor": "pointer",
                       "fontFamily": "Futura No 2 D Semi Bold",
-                      "fontSize": "20px",
+                      "fontSize": "22px",
                       "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
                       "textTransform": "uppercase",
                     }
                   }
@@ -1114,14 +525,15 @@ ShallowWrapper {
                   onClick={[Function]}
                   style={
                     Object {
-                      "background": "rgba(28, 116, 188, 0.6)",
+                      "background": "rgba(30, 145, 223, 0.7)",
                       "borderLeft": "2px solid transparent",
                       "borderWidth": 0,
                       "color": "white",
                       "cursor": "pointer",
                       "fontFamily": "Futura No 2 D Semi Bold",
-                      "fontSize": "20px",
+                      "fontSize": "22px",
                       "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
                       "textTransform": "uppercase",
                     }
                   }
@@ -1138,7 +550,7 @@ ShallowWrapper {
                 </WithStyles(TableCell)>,
               ],
               "style": Object {
-                "height": 36,
+                "height": "32px",
               },
             },
             "ref": null,
@@ -1162,13 +574,14 @@ ShallowWrapper {
                   "className": undefined,
                   "onClick": [Function],
                   "style": Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
+                    "background": "rgba(30, 145, 223, 0.7)",
                     "borderWidth": 0,
                     "color": "white",
                     "cursor": "pointer",
                     "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
+                    "fontSize": "22px",
                     "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
                     "textTransform": "uppercase",
                   },
                 },
@@ -1220,14 +633,15 @@ ShallowWrapper {
                   "className": undefined,
                   "onClick": [Function],
                   "style": Object {
-                    "background": "rgba(28, 116, 188, 0.6)",
+                    "background": "rgba(30, 145, 223, 0.7)",
                     "borderLeft": "2px solid transparent",
                     "borderWidth": 0,
                     "color": "white",
                     "cursor": "pointer",
                     "fontFamily": "Futura No 2 D Semi Bold",
-                    "fontSize": "20px",
+                    "fontSize": "22px",
                     "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
                     "textTransform": "uppercase",
                   },
                 },
@@ -1274,7 +688,7 @@ ShallowWrapper {
               <WithStyles(TableRow)
                 style={
                   Object {
-                    "height": "3px",
+                    "height": "4px",
                   }
                 }
               />,
@@ -1285,9 +699,9 @@ ShallowWrapper {
                     onClick={undefined}
                     style={
                       Object {
-                        "background": "rgba(255,255,255,0.07)",
+                        "background": "rgba(255,255,255,0.2)",
                         "borderWidth": 0,
-                        "height": 36,
+                        "height": "40px",
                         "letterSpacing": 0.6,
                       }
                     }
@@ -1298,7 +712,7 @@ ShallowWrapper {
                           "borderWidth": 0,
                           "color": "white",
                           "fontFamily": "Arial, san-serif",
-                          "fontSize": "16px",
+                          "fontSize": "18px",
                           "padding": "0 10px 0 10px",
                           "textTransform": "uppercase",
                         }
@@ -1312,7 +726,7 @@ ShallowWrapper {
                           "borderWidth": 0,
                           "color": "white",
                           "fontFamily": "Arial, san-serif",
-                          "fontSize": "16px",
+                          "fontSize": "18px",
                           "padding": "0 10px 0 10px",
                           "textTransform": "uppercase",
                         }
@@ -1324,7 +738,7 @@ ShallowWrapper {
                   <WithStyles(TableRow)
                     style={
                       Object {
-                        "height": "3px",
+                        "height": "4px",
                       }
                     }
                   />,
@@ -1335,9 +749,9 @@ ShallowWrapper {
                     onClick={undefined}
                     style={
                       Object {
-                        "background": "rgba(255,255,255,0.07)",
+                        "background": "rgba(255,255,255,0.2)",
                         "borderWidth": 0,
-                        "height": 36,
+                        "height": "40px",
                         "letterSpacing": 0.6,
                       }
                     }
@@ -1348,7 +762,7 @@ ShallowWrapper {
                           "borderWidth": 0,
                           "color": "white",
                           "fontFamily": "Arial, san-serif",
-                          "fontSize": "16px",
+                          "fontSize": "18px",
                           "padding": "0 10px 0 10px",
                           "textTransform": "uppercase",
                         }
@@ -1362,7 +776,7 @@ ShallowWrapper {
                           "borderWidth": 0,
                           "color": "white",
                           "fontFamily": "Arial, san-serif",
-                          "fontSize": "16px",
+                          "fontSize": "18px",
                           "padding": "0 10px 0 10px",
                           "textTransform": "uppercase",
                         }
@@ -1374,7 +788,7 @@ ShallowWrapper {
                   <WithStyles(TableRow)
                     style={
                       Object {
-                        "height": "3px",
+                        "height": "4px",
                       }
                     }
                   />,
@@ -1393,7 +807,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "style": Object {
-                  "height": "3px",
+                  "height": "4px",
                 },
               },
               "ref": null,
@@ -1412,7 +826,7 @@ ShallowWrapper {
                         "borderWidth": 0,
                         "color": "white",
                         "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
+                        "fontSize": "18px",
                         "padding": "0 10px 0 10px",
                         "textTransform": "uppercase",
                       }
@@ -1426,7 +840,7 @@ ShallowWrapper {
                         "borderWidth": 0,
                         "color": "white",
                         "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
+                        "fontSize": "18px",
                         "padding": "0 10px 0 10px",
                         "textTransform": "uppercase",
                       }
@@ -1438,9 +852,9 @@ ShallowWrapper {
                 "className": undefined,
                 "onClick": undefined,
                 "style": Object {
-                  "background": "rgba(255,255,255,0.07)",
+                  "background": "rgba(255,255,255,0.2)",
                   "borderWidth": 0,
-                  "height": 36,
+                  "height": "40px",
                   "letterSpacing": 0.6,
                 },
               },
@@ -1456,7 +870,7 @@ ShallowWrapper {
                       "borderWidth": 0,
                       "color": "white",
                       "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
+                      "fontSize": "18px",
                       "padding": "0 10px 0 10px",
                       "textTransform": "uppercase",
                     },
@@ -1475,7 +889,7 @@ ShallowWrapper {
                       "borderWidth": 0,
                       "color": "white",
                       "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
+                      "fontSize": "18px",
                       "padding": "0 10px 0 10px",
                       "textTransform": "uppercase",
                     },
@@ -1493,7 +907,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "style": Object {
-                  "height": "3px",
+                  "height": "4px",
                 },
               },
               "ref": null,
@@ -1512,7 +926,7 @@ ShallowWrapper {
                         "borderWidth": 0,
                         "color": "white",
                         "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
+                        "fontSize": "18px",
                         "padding": "0 10px 0 10px",
                         "textTransform": "uppercase",
                       }
@@ -1526,7 +940,7 @@ ShallowWrapper {
                         "borderWidth": 0,
                         "color": "white",
                         "fontFamily": "Arial, san-serif",
-                        "fontSize": "16px",
+                        "fontSize": "18px",
                         "padding": "0 10px 0 10px",
                         "textTransform": "uppercase",
                       }
@@ -1538,9 +952,9 @@ ShallowWrapper {
                 "className": undefined,
                 "onClick": undefined,
                 "style": Object {
-                  "background": "rgba(255,255,255,0.07)",
+                  "background": "rgba(255,255,255,0.2)",
                   "borderWidth": 0,
-                  "height": 36,
+                  "height": "40px",
                   "letterSpacing": 0.6,
                 },
               },
@@ -1556,7 +970,7 @@ ShallowWrapper {
                       "borderWidth": 0,
                       "color": "white",
                       "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
+                      "fontSize": "18px",
                       "padding": "0 10px 0 10px",
                       "textTransform": "uppercase",
                     },
@@ -1575,7 +989,7 @@ ShallowWrapper {
                       "borderWidth": 0,
                       "color": "white",
                       "fontFamily": "Arial, san-serif",
-                      "fontSize": "16px",
+                      "fontSize": "18px",
                       "padding": "0 10px 0 10px",
                       "textTransform": "uppercase",
                     },
@@ -1593,7 +1007,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "style": Object {
-                  "height": "3px",
+                  "height": "4px",
                 },
               },
               "ref": null,
@@ -1605,6 +1019,994 @@ ShallowWrapper {
         },
       ],
       "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(Table)
+          style={
+            Object {
+              "background": "transparent",
+            }
+          }
+        >
+          <WithStyles(TableHead)>
+            <WithStyles(TableRow)
+              style={
+                Object {
+                  "height": "32px",
+                }
+              }
+            >
+              <WithStyles(TableCell)
+                className={undefined}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "background": "rgba(30, 145, 223, 0.7)",
+                    "borderWidth": 0,
+                    "color": "white",
+                    "cursor": "pointer",
+                    "fontFamily": "Futura No 2 D Semi Bold",
+                    "fontSize": "22px",
+                    "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                <div
+                  className={undefined}
+                >
+                  Label 1
+                </div>
+                <SortArrow
+                  sortAscending={true}
+                  visible={false}
+                />
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)
+                className={undefined}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "background": "rgba(30, 145, 223, 0.7)",
+                    "borderLeft": "2px solid transparent",
+                    "borderWidth": 0,
+                    "color": "white",
+                    "cursor": "pointer",
+                    "fontFamily": "Futura No 2 D Semi Bold",
+                    "fontSize": "22px",
+                    "padding": "0 10px 0 10px",
+                    "paddingLeft": "15px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                <div
+                  className={undefined}
+                >
+                  Label 2
+                </div>
+                <SortArrow
+                  sortAscending={true}
+                  visible={false}
+                />
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+          </WithStyles(TableHead)>
+          <WithStyles(TableBody)
+            style={
+              Object {
+                "background": "transparent",
+              }
+            }
+          >
+            <WithStyles(TableRow)
+              style={
+                Object {
+                  "height": "4px",
+                }
+              }
+            />
+            <WithStyles(TableRow)
+              className={undefined}
+              onClick={undefined}
+              style={
+                Object {
+                  "background": "rgba(255,255,255,0.2)",
+                  "borderWidth": 0,
+                  "height": "40px",
+                  "letterSpacing": 0.6,
+                }
+              }
+            >
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                Some value
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                Some other value
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+            <WithStyles(TableRow)
+              style={
+                Object {
+                  "height": "4px",
+                }
+              }
+            />
+            <WithStyles(TableRow)
+              className={undefined}
+              onClick={undefined}
+              style={
+                Object {
+                  "background": "rgba(255,255,255,0.2)",
+                  "borderWidth": 0,
+                  "height": "40px",
+                  "letterSpacing": 0.6,
+                }
+              }
+            >
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                Next value
+              </WithStyles(TableCell)>
+              <WithStyles(TableCell)
+                style={
+                  Object {
+                    "borderWidth": 0,
+                    "color": "white",
+                    "fontFamily": "Arial, san-serif",
+                    "fontSize": "18px",
+                    "padding": "0 10px 0 10px",
+                    "textTransform": "uppercase",
+                  }
+                }
+              >
+                Some other value
+              </WithStyles(TableCell)>
+            </WithStyles(TableRow)>
+            <WithStyles(TableRow)
+              style={
+                Object {
+                  "height": "4px",
+                }
+              }
+            />
+          </WithStyles(TableBody)>
+        </WithStyles(Table)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(TableHead)>
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": "32px",
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  className={undefined}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "rgba(30, 145, 223, 0.7)",
+                      "borderWidth": 0,
+                      "color": "white",
+                      "cursor": "pointer",
+                      "fontFamily": "Futura No 2 D Semi Bold",
+                      "fontSize": "22px",
+                      "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  <div
+                    className={undefined}
+                  >
+                    Label 1
+                  </div>
+                  <SortArrow
+                    sortAscending={true}
+                    visible={false}
+                  />
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)
+                  className={undefined}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "rgba(30, 145, 223, 0.7)",
+                      "borderLeft": "2px solid transparent",
+                      "borderWidth": 0,
+                      "color": "white",
+                      "cursor": "pointer",
+                      "fontFamily": "Futura No 2 D Semi Bold",
+                      "fontSize": "22px",
+                      "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  <div
+                    className={undefined}
+                  >
+                    Label 2
+                  </div>
+                  <SortArrow
+                    sortAscending={true}
+                    visible={false}
+                  />
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+            </WithStyles(TableHead)>,
+            <WithStyles(TableBody)
+              style={
+                Object {
+                  "background": "transparent",
+                }
+              }
+            >
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": "4px",
+                  }
+                }
+              />
+              <WithStyles(TableRow)
+                className={undefined}
+                onClick={undefined}
+                style={
+                  Object {
+                    "background": "rgba(255,255,255,0.2)",
+                    "borderWidth": 0,
+                    "height": "40px",
+                    "letterSpacing": 0.6,
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  style={
+                    Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  Some value
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)
+                  style={
+                    Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  Some other value
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": "4px",
+                  }
+                }
+              />
+              <WithStyles(TableRow)
+                className={undefined}
+                onClick={undefined}
+                style={
+                  Object {
+                    "background": "rgba(255,255,255,0.2)",
+                    "borderWidth": 0,
+                    "height": "40px",
+                    "letterSpacing": 0.6,
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  style={
+                    Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  Next value
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)
+                  style={
+                    Object {
+                      "borderWidth": 0,
+                      "color": "white",
+                      "fontFamily": "Arial, san-serif",
+                      "fontSize": "18px",
+                      "padding": "0 10px 0 10px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  Some other value
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": "4px",
+                  }
+                }
+              />
+            </WithStyles(TableBody)>,
+          ],
+          "style": Object {
+            "background": "transparent",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": "32px",
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  className={undefined}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "rgba(30, 145, 223, 0.7)",
+                      "borderWidth": 0,
+                      "color": "white",
+                      "cursor": "pointer",
+                      "fontFamily": "Futura No 2 D Semi Bold",
+                      "fontSize": "22px",
+                      "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  <div
+                    className={undefined}
+                  >
+                    Label 1
+                  </div>
+                  <SortArrow
+                    sortAscending={true}
+                    visible={false}
+                  />
+                </WithStyles(TableCell)>
+                <WithStyles(TableCell)
+                  className={undefined}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "rgba(30, 145, 223, 0.7)",
+                      "borderLeft": "2px solid transparent",
+                      "borderWidth": 0,
+                      "color": "white",
+                      "cursor": "pointer",
+                      "fontFamily": "Futura No 2 D Semi Bold",
+                      "fontSize": "22px",
+                      "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                >
+                  <div
+                    className={undefined}
+                  >
+                    Label 2
+                  </div>
+                  <SortArrow
+                    sortAscending={true}
+                    visible={false}
+                  />
+                </WithStyles(TableCell)>
+              </WithStyles(TableRow)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(TableCell)
+                    className={undefined}
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "background": "rgba(30, 145, 223, 0.7)",
+                        "borderWidth": 0,
+                        "color": "white",
+                        "cursor": "pointer",
+                        "fontFamily": "Futura No 2 D Semi Bold",
+                        "fontSize": "22px",
+                        "padding": "0 10px 0 10px",
+                        "paddingLeft": "15px",
+                        "textTransform": "uppercase",
+                      }
+                    }
+                  >
+                    <div
+                      className={undefined}
+                    >
+                      Label 1
+                    </div>
+                    <SortArrow
+                      sortAscending={true}
+                      visible={false}
+                    />
+                  </WithStyles(TableCell)>,
+                  <WithStyles(TableCell)
+                    className={undefined}
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "background": "rgba(30, 145, 223, 0.7)",
+                        "borderLeft": "2px solid transparent",
+                        "borderWidth": 0,
+                        "color": "white",
+                        "cursor": "pointer",
+                        "fontFamily": "Futura No 2 D Semi Bold",
+                        "fontSize": "22px",
+                        "padding": "0 10px 0 10px",
+                        "paddingLeft": "15px",
+                        "textTransform": "uppercase",
+                      }
+                    }
+                  >
+                    <div
+                      className={undefined}
+                    >
+                      Label 2
+                    </div>
+                    <SortArrow
+                      sortAscending={true}
+                      visible={false}
+                    />
+                  </WithStyles(TableCell)>,
+                ],
+                "style": Object {
+                  "height": "32px",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "label_1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className={undefined}
+                      >
+                        Label 1
+                      </div>,
+                      <SortArrow
+                        sortAscending={true}
+                        visible={false}
+                      />,
+                    ],
+                    "className": undefined,
+                    "onClick": [Function],
+                    "style": Object {
+                      "background": "rgba(30, 145, 223, 0.7)",
+                      "borderWidth": 0,
+                      "color": "white",
+                      "cursor": "pointer",
+                      "fontFamily": "Futura No 2 D Semi Bold",
+                      "fontSize": "22px",
+                      "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
+                      "textTransform": "uppercase",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Label 1",
+                        "className": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "Label 1",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "sortAscending": true,
+                        "visible": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "label_2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className={undefined}
+                      >
+                        Label 2
+                      </div>,
+                      <SortArrow
+                        sortAscending={true}
+                        visible={false}
+                      />,
+                    ],
+                    "className": undefined,
+                    "onClick": [Function],
+                    "style": Object {
+                      "background": "rgba(30, 145, 223, 0.7)",
+                      "borderLeft": "2px solid transparent",
+                      "borderWidth": 0,
+                      "color": "white",
+                      "cursor": "pointer",
+                      "fontFamily": "Futura No 2 D Semi Bold",
+                      "fontSize": "22px",
+                      "padding": "0 10px 0 10px",
+                      "paddingLeft": "15px",
+                      "textTransform": "uppercase",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Label 2",
+                        "className": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "Label 2",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "sortAscending": true,
+                        "visible": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(TableRow)
+                  style={
+                    Object {
+                      "height": "4px",
+                    }
+                  }
+                />,
+                Array [
+                  Array [
+                    <WithStyles(TableRow)
+                      className={undefined}
+                      onClick={undefined}
+                      style={
+                        Object {
+                          "background": "rgba(255,255,255,0.2)",
+                          "borderWidth": 0,
+                          "height": "40px",
+                          "letterSpacing": 0.6,
+                        }
+                      }
+                    >
+                      <WithStyles(TableCell)
+                        style={
+                          Object {
+                            "borderWidth": 0,
+                            "color": "white",
+                            "fontFamily": "Arial, san-serif",
+                            "fontSize": "18px",
+                            "padding": "0 10px 0 10px",
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        Some value
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)
+                        style={
+                          Object {
+                            "borderWidth": 0,
+                            "color": "white",
+                            "fontFamily": "Arial, san-serif",
+                            "fontSize": "18px",
+                            "padding": "0 10px 0 10px",
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        Some other value
+                      </WithStyles(TableCell)>
+                    </WithStyles(TableRow)>,
+                    <WithStyles(TableRow)
+                      style={
+                        Object {
+                          "height": "4px",
+                        }
+                      }
+                    />,
+                  ],
+                  Array [
+                    <WithStyles(TableRow)
+                      className={undefined}
+                      onClick={undefined}
+                      style={
+                        Object {
+                          "background": "rgba(255,255,255,0.2)",
+                          "borderWidth": 0,
+                          "height": "40px",
+                          "letterSpacing": 0.6,
+                        }
+                      }
+                    >
+                      <WithStyles(TableCell)
+                        style={
+                          Object {
+                            "borderWidth": 0,
+                            "color": "white",
+                            "fontFamily": "Arial, san-serif",
+                            "fontSize": "18px",
+                            "padding": "0 10px 0 10px",
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        Next value
+                      </WithStyles(TableCell)>
+                      <WithStyles(TableCell)
+                        style={
+                          Object {
+                            "borderWidth": 0,
+                            "color": "white",
+                            "fontFamily": "Arial, san-serif",
+                            "fontSize": "18px",
+                            "padding": "0 10px 0 10px",
+                            "textTransform": "uppercase",
+                          }
+                        }
+                      >
+                        Some other value
+                      </WithStyles(TableCell)>
+                    </WithStyles(TableRow)>,
+                    <WithStyles(TableRow)
+                      style={
+                        Object {
+                          "height": "4px",
+                        }
+                      }
+                    />,
+                  ],
+                ],
+              ],
+              "style": Object {
+                "background": "transparent",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "style": Object {
+                    "height": "4px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    >
+                      Some value
+                    </WithStyles(TableCell)>,
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    >
+                      Some other value
+                    </WithStyles(TableCell)>,
+                  ],
+                  "className": undefined,
+                  "onClick": undefined,
+                  "style": Object {
+                    "background": "rgba(255,255,255,0.2)",
+                    "borderWidth": 0,
+                    "height": "40px",
+                    "letterSpacing": 0.6,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "label_1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Some value",
+                      "style": Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "Some value",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "label_2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Some other value",
+                      "style": Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "Some other value",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "0-spacer",
+                "nodeType": "class",
+                "props": Object {
+                  "style": Object {
+                    "height": "4px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    >
+                      Next value
+                    </WithStyles(TableCell)>,
+                    <WithStyles(TableCell)
+                      style={
+                        Object {
+                          "borderWidth": 0,
+                          "color": "white",
+                          "fontFamily": "Arial, san-serif",
+                          "fontSize": "18px",
+                          "padding": "0 10px 0 10px",
+                          "textTransform": "uppercase",
+                        }
+                      }
+                    >
+                      Some other value
+                    </WithStyles(TableCell)>,
+                  ],
+                  "className": undefined,
+                  "onClick": undefined,
+                  "style": Object {
+                    "background": "rgba(255,255,255,0.2)",
+                    "borderWidth": 0,
+                    "height": "40px",
+                    "letterSpacing": 0.6,
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "label_1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Next value",
+                      "style": Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "Next value",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "label_2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Some other value",
+                      "style": Object {
+                        "borderWidth": 0,
+                        "color": "white",
+                        "fontFamily": "Arial, san-serif",
+                        "fontSize": "18px",
+                        "padding": "0 10px 0 10px",
+                        "textTransform": "uppercase",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "Some other value",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1-spacer",
+                "nodeType": "class",
+                "props": Object {
+                  "style": Object {
+                    "height": "4px",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
