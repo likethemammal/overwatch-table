@@ -10,10 +10,11 @@ overwatch-table
 
 A React component modeling the Overwatch Custom Game table element
 
+![Example](example/example.png)
 
 ## Install
 
-Note: Requires **React 16.2+** for now
+Note: Requires **React 16.2+**
 
 	npm install --save overwatch-table
 
@@ -29,7 +30,50 @@ When using CSS font-face, the font-family should match whats below:
 
 ## Usage
 
-Check out [example/index.js](example/index.js) for working example.
+
+Check out [example/index.js](example/index.js) for working example or below for exact usage.
+
+    import Table from 'overwatch-table'
+
+    const rows = [
+        {
+            name: 'Genji',
+            weapon_type: 'Shuriken',
+        },
+        {
+            name: 'Winston',
+            weapon_type: 'Banana peel',
+        },
+        {
+            name: 'Symmetra',
+            weapon_type: 'Long-range beam'
+        },
+        {
+            name: 'Torb',
+            weapon_type: 'Too many children',
+        },
+    ]
+    
+    const columnLabels = {
+        name: 'Hero Name',
+        weapon_type: 'Weapon Type'
+    }
+    
+    const columnOrder = [
+        'name',
+        'weapon_type',
+    ]
+    
+    class Example extends React.Component {
+
+        render() {    
+            return <Table
+                rows={rows}
+                columnLabels={columnLabels}
+                columnOrder={columnOrder}
+            />
+        }
+    }
 
 ### Props
 
@@ -45,9 +89,16 @@ Check out [example/index.js](example/index.js) for working example.
   
 #### Running the example
 
+Install it:
+
+    cd example/; npm install
+    
+Run it while developing (in another terminal window):
+
     cd example/; npm run dev
     
-Open [http://localhost:8080/](http://localhost:8080/) to view example
+    
+Open [http://localhost:8080/](http://localhost:8080/) to see the running example
 
 
 ## Tests
@@ -59,3 +110,7 @@ Open [http://localhost:8080/](http://localhost:8080/) to view example
 Made with 🍊 by [Chris Dolphin](https://github.com/likethemammal)
 
 [![license](https://img.shields.io/github/license/likethemammal/overwatch-table.svg?style=flat-square)](https://github.com/likethemammal/overwatch-table/blob/master/LICENSE)
+
+#### Fonts
+
+The font **Futura No 2 D DemiBold** should be licensed through [MyFonts.com](http://www.myfonts.com/fonts/urw/futura-no-2/futura-no2-d-demi-bold/)

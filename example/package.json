@@ -18,5 +18,8 @@
     "react": ">=16.2.x",
     "react-dom": ">=16.2.x"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@likethemammal/general-components": "^0.1.15",
+    "svg-icon": "^0.8.2"
+  }
 }
