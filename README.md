@@ -30,7 +30,6 @@ When using CSS font-face, the font-family should match whats below:
 
 ## Usage
 
-
 Check out [example/index.js](example/index.js) for working example or below for exact usage.
 
     import Table from 'overwatch-table'

@@ -13,7 +13,11 @@
   },
   "homepage": "https://github.com/likethemammal/overwatch-table#readme",
   "keywords": [
-    "react"
+    "react",
+    "overwatch",
+    "table",
+    "material-ui",
+    "game-ui"
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
