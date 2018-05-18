@@ -1,6 +1,6 @@
 {
   "name": "overwatch-table",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "A React component modeling the Overwatch Custom Game table element",
   "author": "Chris Dolphin",
   "license": "Apache-2.0",
